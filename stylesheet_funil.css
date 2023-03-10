@@ -96,6 +96,7 @@
     transform-origin: 0 0;
   }
   .react-flow__node {
+    outline: none;
     position: absolute;
     -webkit-user-select: none;
        -moz-user-select: none;
