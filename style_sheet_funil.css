@@ -97,6 +97,7 @@
   }
   .react-flow__node {
     outline: none;
+    z-index: -1 !important;
     position: absolute;
     -webkit-user-select: none;
        -moz-user-select: none;
