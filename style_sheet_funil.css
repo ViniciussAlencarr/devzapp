@@ -97,7 +97,7 @@
   }
   .react-flow__node {
     outline: none;
-    z-index: -1 !important;
+    z-index: 0 !important;
     position: absolute;
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -107,6 +107,9 @@
     box-sizing: border-box;
     cursor: -webkit-grab;
     cursor: grab;
+      &.react-flow__node-enviaMensagem {
+          z-index: -1 !important;
+      }
   }
   .react-flow__node.dragging {
       cursor: -webkit-grabbing;
