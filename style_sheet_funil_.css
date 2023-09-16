@@ -107,7 +107,9 @@
     box-sizing: border-box;
     cursor: -webkit-grab;
     cursor: grab;
-      &.react-flow__node-enviaMensagem {
+      &.react-flow__node-enviaMensagem,
+      .react-flow__node-fieldanalitico,
+      .react-flow__node-fieldrandom {
           z-index: -1 !important;
       }
   }
