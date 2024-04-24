@@ -7,6 +7,7 @@
     top: 0;
     left: 0;
   }
+
   .react-flow__pane {
     z-index: 1;
     cursor: -webkit-grab;
@@ -190,6 +191,7 @@
       transform: translateX(-50%);
     }
   .react-flow__attribution {
+      display: none !important;
     font-size: 10px;
     background: rgba(255, 255, 255, 0.5);
     padding: 2px 3px;
